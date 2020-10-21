@@ -5,7 +5,7 @@
   "description": "My Electron application description",
   "main": "src/index.js",
   "scripts": {
-    "start": "electron-forge start",
+    "start": "electron-forge start --app-path ./src/js/index.js",
     "package": "electron-forge package",
     "make": "electron-forge make",
     "publish": "electron-forge publish",
@@ -45,7 +45,8 @@
     }
   },
   "dependencies": {
-    "electron-squirrel-startup": "^1.0.0"
+    "electron-squirrel-startup": "^1.0.0",
+    "tailwindcss": "^1.9.5"
   },
   "devDependencies": {
     "@electron-forge/cli": "^6.0.0-beta.54",
