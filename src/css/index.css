@@ -58,18 +58,16 @@
     font-size: 1.5vw;
     font-weight: 400;
     transition-duration: 0.4s;
-}
-
-.grid-button-one {
     background-color: transparent;
     color: #FC4D02;
     border: 0.75px solid #FC4D02;
 }
 
-.grid-button-one:hover {
+.grid-button:hover {
     background-color: #FC4D02;
     color: white;
-    border: 1.5px solid #fcae92;
+    box-shadow:  0 0 0 1.5px #fcae92;
+
 }
 
 *:focus {

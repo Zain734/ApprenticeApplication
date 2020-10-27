@@ -1,199 +1,199 @@
 <!DOCTYPE html>
 <html lang="en" class="flex h-full w-full">
-<head>
-    <meta charset="UTF-8">
-    <title>Apprentice Schemes</title>
-    <link href="https://unpkg.com/tailwindcss@^1.0/dist/tailwind.min.css" rel="stylesheet">
-    <link href="../css/baeStyles.css" rel="stylesheet">
-    <link href="../css/index.css" rel="stylesheet">
-    <script src="../js/render.js"></script>
-</head>
-<body class="overflow-hidden bae-body-grey">
+    <head>
+        <meta charset="UTF-8">
+        <title>Apprentice Schemes</title>
+        <link href="https://unpkg.com/tailwindcss@^1.0/dist/tailwind.min.css" rel="stylesheet">
+        <link href="../css/baeStyles.css" rel="stylesheet">
+        <link href="../css/index.css" rel="stylesheet">
+        <script src="../js/render.js"></script>
+    </head>
+    <body class="overflow-hidden bae-body-grey">
 
-<!-- Custom Application Titlebar -->
+    <!-- Custom Application Titlebar -->
 
-<header id="titlebar">
-    <div id="drag-region">
-        <div id="window-controls">
+        <header id="titlebar">
+            <div id="drag-region">
+                <div id="window-controls">
 
-            <!-- Minimise Button -->
-            
-            <div class="button cursor-pointer" id="min-button">
-                <img class="icon"
-                     draggable="false"
-                     srcset="../../assets/menuIcons/min-w-10.png 1x, ../../assets/menuIcons/min-w-12.png 1.25x, ../../assets/menuIcons/min-w-15.png 1.5x, ../../assets/menuIcons/min-w-15.png 1.75x, ../../assets/menuIcons/min-w-20.png 2x, ../../assets/menuIcons/min-w-20.png 2.25x, ../../assets/menuIcons/min-w-24.png 2.5x, ../../assets/menuIcons/min-w-30.png 3x, ../../assets/menuIcons/min-w-30.png 3.5x"
-                     alt="Minimise Button"/>
+                    <!-- Minimise Button -->
+
+                    <div class="button cursor-pointer" id="min-button">
+                        <img class="icon"
+                             draggable="false"
+                             srcset="../../assets/menuIcons/min-w-10.png 1x, ../../assets/menuIcons/min-w-12.png 1.25x, ../../assets/menuIcons/min-w-15.png 1.5x, ../../assets/menuIcons/min-w-15.png 1.75x, ../../assets/menuIcons/min-w-20.png 2x, ../../assets/menuIcons/min-w-20.png 2.25x, ../../assets/menuIcons/min-w-24.png 2.5x, ../../assets/menuIcons/min-w-30.png 3x, ../../assets/menuIcons/min-w-30.png 3.5x"
+                             alt="Minimise Button"/>
+                    </div>
+
+                    <!-- Maximise Button -->
+
+                    <div class="button cursor-pointer" id="max-button">
+                        <img class="icon"
+                             draggable="false"
+                             srcset="../../assets/menuIcons/max-w-10.png 1x, ../../assets/menuIcons/max-w-12.png 1.25x, ../../assets/menuIcons/max-w-15.png 1.5x, ../../assets/menuIcons/max-w-15.png 1.75x, ../../assets/menuIcons/max-w-20.png 2x, ../../assets/menuIcons/max-w-20.png 2.25x, ../../assets/menuIcons/max-w-24.png 2.5x, ../../assets/menuIcons/max-w-30.png 3x, ../../assets/menuIcons/max-w-30.png 3.5x"
+                             alt="Maximise Button"/>
+                    </div>
+
+                    <!-- Restore Button -->
+
+                    <div class="button cursor-pointer" id="restore-button">
+                        <img class="icon"
+                             draggable="false"
+                             srcset="../../assets/menuIcons/restore-w-10.png 1x, ../../assets/menuIcons/restore-w-12.png 1.25x, ../../assets/menuIcons/restore-w-15.png 1.5x, ../../assets/menuIcons/restore-w-15.png 1.75x, ../../assets/menuIcons/restore-w-20.png 2x, ../../assets/menuIcons/restore-w-20.png 2.25x, ../../assets/menuIcons/restore-w-24.png 2.5x, ../../assets/menuIcons/restore-w-30.png 3x, ../../assets/menuIcons/restore-w-30.png 3.5x"
+                             alt="Restore Button"/>
+                    </div>
+
+                    <!-- Close Button -->
+                    <div class="button cursor-pointer" id="close-button">
+                        <img class="icon"
+                             draggable="false"
+                             srcset="../../assets/menuIcons/close-w-10.png 1x, ../../assets/menuIcons/close-w-12.png 1.25x, ../../assets/menuIcons/close-w-15.png 1.5x, ../../assets/menuIcons/close-w-15.png 1.75x, ../../assets/menuIcons/close-w-20.png 2x, ../../assets/menuIcons/close-w-20.png 2.25x, ../../assets/menuIcons/close-w-24.png 2.5x, ../../assets/menuIcons/close-w-30.png 3x, ../../assets/menuIcons/close-w-30.png 3.5x"
+                             alt="Close Button"/>
+                    </div>
+
+                </div>
+
+                <div id="window-title">
+                    <span class="text-white"></span>
+                </div>
+
             </div>
+        </header>
 
-            <!-- Maximise Button -->
-            
-            <div class="button cursor-pointer" id="max-button">
-                <img class="icon"
-                     draggable="false"
-                     srcset="../../assets/menuIcons/max-w-10.png 1x, ../../assets/menuIcons/max-w-12.png 1.25x, ../../assets/menuIcons/max-w-15.png 1.5x, ../../assets/menuIcons/max-w-15.png 1.75x, ../../assets/menuIcons/max-w-20.png 2x, ../../assets/menuIcons/max-w-20.png 2.25x, ../../assets/menuIcons/max-w-24.png 2.5x, ../../assets/menuIcons/max-w-30.png 3x, ../../assets/menuIcons/max-w-30.png 3.5x"
-                     alt="Maximise Button"/>
+    <!-- BAE Header -->
+
+        <header>
+            <div class="w-screen h-20 bae-header-grey" style="margin-top: 24px; align-items: center;">
+
+                <div class="flex flex-row p-5" style="height: 100%; width: 100%; align-items: center;">
+                    <img alt="BAE Systems Logo" class="w-auto h-10" src="../../assets/baeImages/logo_baesystems_borderless.svg">
+                    <h1 class="bae-slogan-text pl-5 font-thin">Trusted, Innovative, Bold</h1>
+                    <h1 class="absolute bae-header-text-2 right-0 pr-5">Software Engineering Degree Apprenticeship</h1>
+                </div>
+
             </div>
+        </header>
 
-            <!-- Restore Button -->
-            
-            <div class="button cursor-pointer" id="restore-button">
-                <img class="icon"
-                     draggable="false"
-                     srcset="../../assets/menuIcons/restore-w-10.png 1x, ../../assets/menuIcons/restore-w-12.png 1.25x, ../../assets/menuIcons/restore-w-15.png 1.5x, ../../assets/menuIcons/restore-w-15.png 1.75x, ../../assets/menuIcons/restore-w-20.png 2x, ../../assets/menuIcons/restore-w-20.png 2.25x, ../../assets/menuIcons/restore-w-24.png 2.5x, ../../assets/menuIcons/restore-w-30.png 3x, ../../assets/menuIcons/restore-w-30.png 3.5x"
-                     alt="Restore Button"/>
-            </div>
+    <!-- Main Body Section -->
 
-            <!-- Close Button -->
-            <div class="button cursor-pointer" id="close-button">
-                <img class="icon"
-                     draggable="false"
-                     srcset="../../assets/menuIcons/close-w-10.png 1x, ../../assets/menuIcons/close-w-12.png 1.25x, ../../assets/menuIcons/close-w-15.png 1.5x, ../../assets/menuIcons/close-w-15.png 1.75x, ../../assets/menuIcons/close-w-20.png 2x, ../../assets/menuIcons/close-w-20.png 2.25x, ../../assets/menuIcons/close-w-24.png 2.5x, ../../assets/menuIcons/close-w-30.png 3x, ../../assets/menuIcons/close-w-30.png 3.5x"
-                     alt="Close Button"/>
-            </div>
+        <section class="max-size p-8">
+            <div class="h-auto w-auto centre-div">
 
-        </div>
-        
-        <div id="window-title">
-            <span class="text-white"></span>
-        </div>
-        
-    </div>
-</header>
+                <!-- Row One -->
 
-<!-- BAE Header -->
+                <div class="flex justify-between">
 
-<header>
-    <div class="w-screen h-20 bae-header-grey" style="margin-top: 24px; align-items: center;">
-        
-        <div class="flex flex-row p-5" style="height: 100%; width: 100%; align-items: center;">
-            <img alt="BAE Systems Logo" class="w-auto h-10" src="../../assets/baeImages/logo_baesystems_borderless.svg">
-            <h1 class="bae-slogan-text pl-5 font-thin">Trusted, Innovative, Bold</h1>
-            <h1 class="absolute bae-header-text-2 right-0 pr-5">Software Engineering Degree Apprenticeship</h1>
-        </div>
-        
-    </div>
-</header>
+                    <!-- Element One -->
 
-<!-- Main Body Section -->
+                    <div class="w-1/5 grid-item-height flex flex-col relative">
 
-<section class="max-size p-8">
-    <div class="h-auto w-auto centre-div">
+                        <!-- Setting the image using CSS class. URL for image location. -->
+                        <div class="flex bg-image h-full mx-8" style="background-image: url('../../assets/baeImages/tempest.jpg');"></div>
 
-        <!-- Row One -->
+                        <div class="flex grid-item-text-container z-10 flex-col">
+                            <div class="text-box-line"></div>
+                            <div class="flex flex-col">
 
-        <div class="flex justify-between">
+                                <!-- Alter grid element content here -->
+                                <h1 class="bae-text-grey-1 text-box-header font-tahoma">Tempest</h1>
+                                <p class="bae-text-grey-1 font-tahoma text-box-subheader">Future Combat Air System (FCAS)</p>
 
-            <!-- Element One -->
+                                <!-- Button styling -->
+                                <div class="px-4 py-2 mx-auto">
+                                    <button class="grid-button px-2 py-1">Learn more</button>
+                                </div>
 
-            <div class="w-1/5 grid-item-height flex flex-col relative">
+                            </div>
+                        </div>
 
-                <!-- Setting the image using CSS class. URL for image location. -->
-                <div class="flex bg-image h-full mx-8" style="background-image: url('../../assets/baeImages/tempest.jpg');"></div>
+                    </div>
 
-                <div class="flex grid-item-text-container z-10 flex-col">
-                    <div class="text-box-line"></div>
-                    <div class="flex flex-col">
+                    <!-- Element Two -->
 
-                        <!-- Alter grid element content here -->
-                        <h1 class="bae-text-grey-1 text-box-header font-tahoma">Tempest</h1>
-                        <p class="bae-text-grey-1 font-tahoma text-box-subheader">Future Combat Air System (FCAS)</p>
+                    <div class="w-1/5 grid-item-height flex flex-col relative">
 
-                        <!-- Button styling -->
-                        <div class="px-4 py-2 mx-auto">
-                            <button class="border grid-button grid-button-one px-2 py-1">Learn more</button>
+                        <!-- Setting the image using CSS class. URL for image location. -->
+                        <div class="flex bg-image h-full mx-8" style="background-image: url('../../assets/baeImages/glasses.jpg');"></div>
+
+                        <div class="flex grid-item-text-container z-10 flex-col">
+                            <div class="text-box-line"></div>
+                            <div class="flex flex-col">
+
+                                <!-- Alter grid element content here -->
+                                <h1 class="bae-text-grey-1 text-box-header font-tahoma">Innovators</h1>
+                                <p class="bae-text-grey-1 font-tahoma text-box-subheader px-6">News and perspective from our R&D teams</p>
+
+                                <!-- Button styling -->
+                                <div class="px-4 py-2 mx-auto">
+                                    <button class="border grid-button px-2 py-1">Learn more</button>
+                                </div>
+
+                            </div>
+                        </div>
+
+                    </div>
+
+                    <!-- Element Three -->
+
+                    <div class="w-1/5 grid-item-height flex flex-col relative">
+
+                        <!-- Setting the image using CSS class. URL for image location. -->
+                        <div class="flex bg-image h-full mx-8" style="background-image: url('../../assets/baeImages/aircraft.jpg');"></div>
+
+                        <div class="flex grid-item-text-container z-10 flex-col">
+                            <div class="text-box-line"></div>
+                            <div class="flex flex-col">
+
+                                <!-- Alter grid element content here -->
+                                <h1 class="bae-text-grey-1 text-box-header font-tahoma">Aircraft</h1>
+                                <p class="bae-text-grey-1 font-tahoma text-box-subheader px-6">World leading capabilities in military and commercial aircraft technology</p>
+
+                                <!-- Button styling -->
+                                <div class="px-4 py-2 mx-auto">
+                                    <button class="border grid-button px-2 py-1">Learn more</button>
+                                </div>
+
+                            </div>
+                        </div>
+
+                    </div>
+
+                    <!-- Element Four -->
+
+                    <div class="w-1/5 grid-item-height flex flex-col relative">
+
+                        <!-- Setting the image using CSS class. URL for image location. -->
+                        <div class="flex bg-image h-full mx-8" style="background-image: url('../../assets/baeImages/australia.jpg');"></div>
+
+                        <div class="flex grid-item-text-container z-10 flex-col">
+                            <div class="text-box-line"></div>
+                            <div class="flex flex-col">
+
+                                <!-- Alter grid element content here -->
+                                <h1 class="bae-text-grey-1 text-box-header font-tahoma">Australia</h1>
+                                <p class="bae-text-grey-1 font-tahoma text-box-subheader">We're investing in Australia's future</p>
+
+                                <!-- Button styling -->
+                                <div class="px-4 py-2 mx-auto">
+                                    <button class="border grid-button px-2 py-1">Learn more</button>
+                                </div>
+
+                            </div>
                         </div>
 
                     </div>
                 </div>
 
-            </div>
+                <!-- Row Two -->
 
-            <!-- Element Two -->
-
-            <div class="w-1/5 grid-item-height flex flex-col relative">
-
-                <!-- Setting the image using CSS class. URL for image location. -->
-                <div class="flex bg-image h-full mx-8" style="background-image: url('../../assets/baeImages/glasses.jpg');"></div>
-
-                <div class="flex grid-item-text-container z-10 flex-col">
-                    <div class="text-box-line"></div>
-                    <div class="flex flex-col">
-
-                        <!-- Alter grid element content here -->
-                        <h1 class="bae-text-grey-1 text-box-header font-tahoma">Innovators</h1>
-                        <p class="bae-text-grey-1 font-tahoma text-box-subheader px-6">News and perspective from our R&D teams</p>
-
-                        <!-- Button styling -->
-                        <div class="px-4 py-2 mx-auto">
-                            <button class="border grid-button grid-button-one px-2 py-1">Learn more</button>
-                        </div>
-
-                    </div>
+                <div class="flex justify-between pt-8">
+                    <div class="w-1/5 bg-gray-500 grid-item-height"></div>
+                    <div class="w-1/5 bg-gray-400 grid-item-height"></div>
+                    <div class="w-1/5 bg-gray-500 grid-item-height"></div>
+                    <div class="w-1/5 bg-gray-400 grid-item-height"></div>
                 </div>
-
             </div>
+        </section>
 
-            <!-- Element Three -->
-
-            <div class="w-1/5 grid-item-height flex flex-col relative">
-
-                <!-- Setting the image using CSS class. URL for image location. -->
-                <div class="flex bg-image h-full mx-8" style="background-image: url('../../assets/baeImages/aircraft.jpg');"></div>
-
-                <div class="flex grid-item-text-container z-10 flex-col">
-                    <div class="text-box-line"></div>
-                    <div class="flex flex-col">
-
-                        <!-- Alter grid element content here -->
-                        <h1 class="bae-text-grey-1 text-box-header font-tahoma">Aircraft</h1>
-                        <p class="bae-text-grey-1 font-tahoma text-box-subheader px-6">World leading capabilities in military and commercial aircraft technology</p>
-
-                        <!-- Button styling -->
-                        <div class="px-4 py-2 mx-auto">
-                            <button class="border grid-button grid-button-one px-2 py-1">Learn more</button>
-                        </div>
-
-                    </div>
-                </div>
-
-            </div>
-
-            <!-- Element Four -->
-
-            <div class="w-1/5 grid-item-height flex flex-col relative">
-
-                <!-- Setting the image using CSS class. URL for image location. -->
-                <div class="flex bg-image h-full mx-8" style="background-image: url('../../assets/baeImages/australia.jpg');"></div>
-
-                <div class="flex grid-item-text-container z-10 flex-col">
-                    <div class="text-box-line"></div>
-                    <div class="flex flex-col">
-
-                        <!-- Alter grid element content here -->
-                        <h1 class="bae-text-grey-1 text-box-header font-tahoma">Australia</h1>
-                        <p class="bae-text-grey-1 font-tahoma text-box-subheader">We're investing in Australia's future</p>
-
-                        <!-- Button styling -->
-                        <div class="px-4 py-2 mx-auto">
-                            <button class="border grid-button grid-button-one px-2 py-1">Learn more</button>
-                        </div>
-
-                    </div>
-                </div>
-
-            </div>
-        </div>
-
-        <!-- Row Two -->
-
-        <div class="flex justify-between pt-8">
-            <div class="w-1/5 bg-gray-500 grid-item-height"></div>
-            <div class="w-1/5 bg-gray-400 grid-item-height"></div>
-            <div class="w-1/5 bg-gray-500 grid-item-height"></div>
-            <div class="w-1/5 bg-gray-400 grid-item-height"></div>
-        </div>
-    </div>
-</section>
-
-</body>
+    </body>
 </html>
