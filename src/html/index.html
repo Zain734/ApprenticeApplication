@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <title>Apprentice Schemes</title>
     <link href="https://unpkg.com/tailwindcss@^1.0/dist/tailwind.min.css" rel="stylesheet">
-    <link href="../css/bae.css" rel="stylesheet">
+    <link href="../css/baeStyles.css" rel="stylesheet">
     <link href="../css/index.css" rel="stylesheet">
     <script src="../js/render.js"></script>
 </head>
@@ -82,10 +82,106 @@
         <!-- Row One -->
 
         <div class="flex justify-between">
-            <div class="w-1/5 bg-gray-500 grid-item-height"></div>
-            <div class="w-1/5 bg-gray-400 grid-item-height"></div>
-            <div class="w-1/5 bg-gray-500 grid-item-height"></div>
-            <div class="w-1/5 bg-gray-400 grid-item-height"></div>
+
+            <!-- Element One -->
+
+            <div class="w-1/5 grid-item-height flex flex-col relative">
+
+                <!-- Setting the image using CSS class. URL for image location. -->
+                <div class="flex bg-image h-full mx-8" style="background-image: url('../../assets/baeImages/tempest.jpg');"></div>
+
+                <div class="flex grid-item-text-container z-10 flex-col">
+                    <div class="text-box-line"></div>
+                    <div class="flex flex-col">
+
+                        <!-- Alter grid element content here -->
+                        <h1 class="bae-text-grey-1 text-box-header font-tahoma">Tempest</h1>
+                        <p class="bae-text-grey-1 font-tahoma text-box-subheader">Future Combat Air System (FCAS)</p>
+
+                        <!-- Button styling -->
+                        <div class="px-4 py-2 mx-auto">
+                            <button class="border grid-button grid-button-one px-2 py-1">Learn more</button>
+                        </div>
+
+                    </div>
+                </div>
+
+            </div>
+
+            <!-- Element Two -->
+
+            <div class="w-1/5 grid-item-height flex flex-col relative">
+
+                <!-- Setting the image using CSS class. URL for image location. -->
+                <div class="flex bg-image h-full mx-8" style="background-image: url('../../assets/baeImages/glasses.jpg');"></div>
+
+                <div class="flex grid-item-text-container z-10 flex-col">
+                    <div class="text-box-line"></div>
+                    <div class="flex flex-col">
+
+                        <!-- Alter grid element content here -->
+                        <h1 class="bae-text-grey-1 text-box-header font-tahoma">Innovators</h1>
+                        <p class="bae-text-grey-1 font-tahoma text-box-subheader px-6">News and perspective from our R&D teams</p>
+
+                        <!-- Button styling -->
+                        <div class="px-4 py-2 mx-auto">
+                            <button class="border grid-button grid-button-one px-2 py-1">Learn more</button>
+                        </div>
+
+                    </div>
+                </div>
+
+            </div>
+
+            <!-- Element Three -->
+
+            <div class="w-1/5 grid-item-height flex flex-col relative">
+
+                <!-- Setting the image using CSS class. URL for image location. -->
+                <div class="flex bg-image h-full mx-8" style="background-image: url('../../assets/baeImages/aircraft.jpg');"></div>
+
+                <div class="flex grid-item-text-container z-10 flex-col">
+                    <div class="text-box-line"></div>
+                    <div class="flex flex-col">
+
+                        <!-- Alter grid element content here -->
+                        <h1 class="bae-text-grey-1 text-box-header font-tahoma">Aircraft</h1>
+                        <p class="bae-text-grey-1 font-tahoma text-box-subheader px-6">World leading capabilities in military and commercial aircraft technology</p>
+
+                        <!-- Button styling -->
+                        <div class="px-4 py-2 mx-auto">
+                            <button class="border grid-button grid-button-one px-2 py-1">Learn more</button>
+                        </div>
+
+                    </div>
+                </div>
+
+            </div>
+
+            <!-- Element Four -->
+
+            <div class="w-1/5 grid-item-height flex flex-col relative">
+
+                <!-- Setting the image using CSS class. URL for image location. -->
+                <div class="flex bg-image h-full mx-8" style="background-image: url('../../assets/baeImages/australia.jpg');"></div>
+
+                <div class="flex grid-item-text-container z-10 flex-col">
+                    <div class="text-box-line"></div>
+                    <div class="flex flex-col">
+
+                        <!-- Alter grid element content here -->
+                        <h1 class="bae-text-grey-1 text-box-header font-tahoma">Australia</h1>
+                        <p class="bae-text-grey-1 font-tahoma text-box-subheader">We're investing in Australia's future</p>
+
+                        <!-- Button styling -->
+                        <div class="px-4 py-2 mx-auto">
+                            <button class="border grid-button grid-button-one px-2 py-1">Learn more</button>
+                        </div>
+
+                    </div>
+                </div>
+
+            </div>
         </div>
 
         <!-- Row Two -->

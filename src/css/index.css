@@ -12,3 +12,66 @@
 .grid-item-height {
     height: calc(50vh - 104px);
 }
+
+.grid-item-text-container {
+    position: absolute;
+    background-color: white;
+    height: max-content;
+    width: 100%;
+    bottom: 0;
+}
+
+.bg-image {
+    margin-bottom: 30%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    margin-top: 0;
+}
+
+
+.text-box-line {
+    height: 0.2vh;
+    background-color: #fc4d02;
+    width: 100%;
+}
+
+.text-box-header {
+    padding-top: 2%;
+    font-size: 1.75vw;
+    margin-left: auto;
+    margin-right: auto;
+    color: #474c55;
+}
+
+.text-box-subheader {
+    font-size: 1vw;
+    margin-left: auto;
+    margin-right: auto;
+    color: #474c55;
+}
+
+.grid-button {
+    padding-top: 2%;
+    height: fit-content;
+    width: fit-content;
+    font-size: 1.5vw;
+    font-weight: 400;
+    transition-duration: 0.4s;
+}
+
+.grid-button-one {
+    background-color: transparent;
+    color: #FC4D02;
+    border: 0.75px solid #FC4D02;
+}
+
+.grid-button-one:hover {
+    background-color: #FC4D02;
+    color: white;
+    border: 1.5px solid #fcae92;
+}
+
+*:focus {
+    outline: 0 !important;
+}
