@@ -1,0 +1,210 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="BRANCH:master" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </select>
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="9a5c38c0-8b31-4f31-9d3b-30d96cb18cca" name="Default Changelist" comment="Created header and custom title bar.">
+      <change afterPath="$PROJECT_DIR$/assets/baeImages/logo_baesystems_borderless.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/baeImages/tempest.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/menuIcons/close-k-10.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/menuIcons/close-k-12.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/menuIcons/close-k-15.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/menuIcons/close-k-20.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/menuIcons/close-k-24.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/menuIcons/close-k-30.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/menuIcons/close-w-10.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/menuIcons/close-w-12.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/menuIcons/close-w-15.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/menuIcons/close-w-20.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/menuIcons/close-w-24.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/menuIcons/close-w-30.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/menuIcons/max-k-10.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/menuIcons/max-k-12.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/menuIcons/max-k-15.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/menuIcons/max-k-20.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/menuIcons/max-k-24.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/menuIcons/max-k-30.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/menuIcons/max-w-10.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/menuIcons/max-w-12.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/menuIcons/max-w-15.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/menuIcons/max-w-20.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/menuIcons/max-w-24.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/menuIcons/max-w-30.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/menuIcons/min-k-10.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/menuIcons/min-k-12.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/menuIcons/min-k-15.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/menuIcons/min-k-20.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/menuIcons/min-k-24.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/menuIcons/min-k-30.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/menuIcons/min-w-10.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/menuIcons/min-w-12.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/menuIcons/min-w-15.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/menuIcons/min-w-20.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/menuIcons/min-w-24.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/menuIcons/min-w-30.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/menuIcons/restore-k-10.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/menuIcons/restore-k-12.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/menuIcons/restore-k-15.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/menuIcons/restore-k-20.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/menuIcons/restore-k-24.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/menuIcons/restore-k-30.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/menuIcons/restore-w-10.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/menuIcons/restore-w-12.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/menuIcons/restore-w-15.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/menuIcons/restore-w-20.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/menuIcons/restore-w-24.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/menuIcons/restore-w-30.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/css/bae.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/css/output.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/css/output.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/css/tailwind.config.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/css/tailwind.config.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/html/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/html/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/js/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/js/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/js/render.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/js/render.js" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectId" id="1jIDj1jjMahH7g7uz0XfHQqD6dQ" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../TrillClient" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="settings.editor.selected.configurable" value="org.jetbrains.plugins.github.ui.GithubSettingsConfigurable" />
+    <property name="vue.rearranger.settings.migration" value="true" />
+  </component>
+  <component name="RunManager">
+    <configuration name="start" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
+      <package-json value="$PROJECT_DIR$/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="start" />
+      </scripts>
+      <node-interpreter value="project" />
+      <envs />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="npm.start" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="9a5c38c0-8b31-4f31-9d3b-30d96cb18cca" name="Default Changelist" comment="" />
+      <created>1603482844373</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1603482844373</updated>
+      <workItem from="1603482845762" duration="112000" />
+      <workItem from="1603482965417" duration="122000" />
+      <workItem from="1603483095207" duration="32000" />
+      <workItem from="1603483134691" duration="181000" />
+      <workItem from="1603793255899" duration="1470000" />
+      <workItem from="1603797896852" duration="4642000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="master" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Created header and custom title bar." />
+    <option name="LAST_COMMIT_MESSAGE" value="Created header and custom title bar." />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="484" y="6" key="CommitChangelistDialog2" timestamp="1603802152555">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="484" y="6" key="CommitChangelistDialog2/0.0.1920.1040/3840.522.1536.824@0.0.1920.1040" timestamp="1603802152555" />
+    <state x="741" y="275" key="FileChooserDialogImpl" timestamp="1603798234635">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="741" y="275" key="FileChooserDialogImpl/0.0.1920.1040/3840.522.1536.824@0.0.1920.1040" timestamp="1603798234635" />
+    <state width="1900" height="280" key="GridCell.Tab.0.bottom" timestamp="1603802445665">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1900" height="280" key="GridCell.Tab.0.bottom/0.0.1920.1040/3840.522.1536.824@0.0.1920.1040" timestamp="1603802445665" />
+    <state width="1900" height="280" key="GridCell.Tab.0.center" timestamp="1603802445665">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1900" height="280" key="GridCell.Tab.0.center/0.0.1920.1040/3840.522.1536.824@0.0.1920.1040" timestamp="1603802445665" />
+    <state width="1900" height="280" key="GridCell.Tab.0.left" timestamp="1603802445665">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1900" height="280" key="GridCell.Tab.0.left/0.0.1920.1040/3840.522.1536.824@0.0.1920.1040" timestamp="1603802445665" />
+    <state width="1900" height="280" key="GridCell.Tab.0.right" timestamp="1603802445665">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1900" height="280" key="GridCell.Tab.0.right/0.0.1920.1040/3840.522.1536.824@0.0.1920.1040" timestamp="1603802445665" />
+    <state x="807" y="155" width="994" height="706" key="SettingsEditor" timestamp="1603793397915">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="807" y="155" width="994" height="706" key="SettingsEditor/0.0.1920.1040/3840.522.1536.824@0.0.1920.1040" timestamp="1603793397915" />
+    <state x="553" y="253" key="Vcs.Push.Dialog.v2" timestamp="1603483302418">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="553" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1040/3840.522.1536.824@0.0.1920.1040" timestamp="1603483302418" />
+    <state x="777" y="430" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1603483293501">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="777" y="430" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1920.1040/3840.522.1536.824@0.0.1920.1040" timestamp="1603483293501" />
+  </component>
+</project>
