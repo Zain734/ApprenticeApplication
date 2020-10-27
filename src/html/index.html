@@ -1,97 +1,63 @@
 <!DOCTYPE html>
-<html>
-  <head>
+<html lang="en">
+<head>
     <meta charset="UTF-8">
     <title>Apprentice Schemes</title>
-    <link rel="stylesheet" href="../css/output.css">
+    <link href="../css/output.css" rel="stylesheet">
+    <link href="../css/bae.css" rel="stylesheet">
     <script src="../js/render.js"></script>
-  </head>
-  <body class="overflow-hidden bg-gray-100">
-    
-    <header class="shadow-sm">
-      <div class="bg-blue-300 py-1"></div>
-        <nav class="flex items-center justify-between flex-wrap bg-white py-4 mx-auto px-8">
-          <div class="flex items-center flex-shrink-0 text-white mr-6">
-            <a class="text-white no-underline hover:text-white hover:no-underline pl-2" href="#">
-              <div class="h-8 bg-gray-500 w-16 block mx-auto rounded-sm"></div>
-            </a>
-          </div>
+</head>
+<body class="overflow-hidden bae-body-grey">
 
-          <div class="block lg:hidden">
-            <button id="nav-toggle" class="focus:outline-none">
-				<div class="h-1 bg-gray-300 w-8 mb-1 block mx-auto rounded-sm"></div>
-				<div class="h-1 bg-gray-300 w-8 mb-1 block mx-auto rounded-sm"></div>
-                <div class="h-1 bg-gray-300 w-8 mb-1 block mx-auto rounded-sm"></div>
-            </button>
-          </div>
+<header id="titlebar">
+    <div id="drag-region">
+        <div id="window-controls">
 
-          <div class="w-full flex-grow lg:flex lg:items-center lg:w-auto hidden lg:block pt-6 lg:pt-0" id="nav-content">
-            <ul class="list-reset lg:flex justify-end flex-1 items-center">
-              <li class="mr-3">
-                <a class="inline-block py-2 px-4 active:text-gray-900 no-underline" href="#">
-                  <div class="h-2 bg-gray-400 w-16 mt-2 block mx-auto rounded-sm"></div>
-                </a>
-              </li>
-              <li class="mr-3">
-                <a class="inline-block text-gray-600 no-underline hover:text-gray-200 hover:text-underline py-2 px-4" href="#">
-                  <div class="h-2 bg-gray-400 w-16 mt-2 block mx-auto rounded-sm"></div>
-                </a>
-              </li>
-              <li class="mr-3">
-                <a class="inline-block text-gray-600 no-underline hover:text-gray-200 hover:text-underline py-2 px-4" href="#">
-                  <div class="h-2 bg-gray-400 w-16 mt-2 block mx-auto rounded-sm"></div>
-                </a>
-              </li>
-              <li class="mr-3">
-                <a class="inline-block text-gray-600 no-underline hover:text-gray-200 hover:text-underline py-2 px-4" href="#">
-                  <div class="h-2 bg-gray-400 w-16 mt-2 block mx-auto rounded-sm"></div>
-                </a>
-              </li>
-            </ul>
-          </div>
-        </nav>
-    </header>
+            <div class="button cursor-pointer" id="min-button">
+                <img class="icon"
+                     draggable="false"
+                     srcset="../../assets/menuIcons/min-w-10.png 1x, ../../assets/menuIcons/min-w-12.png 1.25x, ../../assets/menuIcons/min-w-15.png 1.5x, ../../assets/menuIcons/min-w-15.png 1.75x, ../../assets/menuIcons/min-w-20.png 2x, ../../assets/menuIcons/min-w-20.png 2.25x, ../../assets/menuIcons/min-w-24.png 2.5x, ../../assets/menuIcons/min-w-30.png 3x, ../../assets/menuIcons/min-w-30.png 3.5x"
+                     alt="Minimise Button"/>
 
-    <main class="flex-grow flex justify-center items-center">
-
-        <div class="mx-auto px-4 sm:px-8 py-2 text-center">
-
-          <div class="text-center max-w-lg mx-auto mt-6">
-            <div class="h-4 bg-gray-500 w-40 block mx-auto rounded-sm"></div>
-            <div class="h-2 bg-gray-400 w-64 mt-4 block mx-auto rounded-sm"></div>
-            <div class="h-2 bg-gray-400 w-48 mt-2 block mx-auto rounded-sm"></div>
-          </div>
-
-          <div class="grid grid-cols-6 gap-4 items-start mt-8 mx-auto px-8">
-
-            <div class="col-span-6 sm:col-span-6 md:col-span-3 lg:col-span-2 xl:col-span-2">
-              <div class="bg-white shadow-lg rounded-lg px-4 py-6 mx-4 my-4">
-                <div class="mx-auto h-40 bg-gray-200 rounded-md"></div>
-                <div class="h-4 bg-gray-200 w-40 mt-8 block mx-auto rounded-sm"></div>
-                <div class="h-2 bg-gray-200 w-64 mt-2 block mx-auto rounded-sm"></div>
-              </div>
             </div>
 
-
-            <div class="col-span-6 sm:col-span-6 md:col-span-3 lg:col-span-2 xl:col-span-2">
-              <div class="bg-white shadow-lg rounded-lg px-4 py-6 mx-4 my-4">
-                <div class="mx-auto h-40 bg-gray-200 rounded-md"></div>
-                <div class="h-4 bg-gray-200 w-40 mt-8 block mx-auto rounded-sm"></div>
-                <div class="h-2 bg-gray-200 w-64 mt-2 block mx-auto rounded-sm"></div>
-              </div>
+            <div class="button cursor-pointer" id="max-button">
+                <img class="icon"
+                     draggable="false"
+                     srcset="../../assets/menuIcons/max-w-10.png 1x, ../../assets/menuIcons/max-w-12.png 1.25x, ../../assets/menuIcons/max-w-15.png 1.5x, ../../assets/menuIcons/max-w-15.png 1.75x, ../../assets/menuIcons/max-w-20.png 2x, ../../assets/menuIcons/max-w-20.png 2.25x, ../../assets/menuIcons/max-w-24.png 2.5x, ../../assets/menuIcons/max-w-30.png 3x, ../../assets/menuIcons/max-w-30.png 3.5x"
+                     alt="Maximise Button"/>
             </div>
 
-            <div class="col-span-6 sm:col-span-6 md:col-span-6 lg:col-span-2 xl:col-span-2">
-              <div class="bg-white shadow-lg rounded-lg px-4 py-6 mx-4 my-4">
-                <div class="mx-auto h-40 bg-gray-200 rounded-md"></div>
-                <div class="h-4 bg-gray-200 w-40 mt-8 block mx-auto rounded-sm"></div>
-                <div class="h-2 bg-gray-200 w-64 mt-2 block mx-auto rounded-sm"></div>
-              </div>
+            <div class="button cursor-pointer" id="restore-button">
+                <img class="icon"
+                     draggable="false"
+                     srcset="../../assets/menuIcons/restore-w-10.png 1x, ../../assets/menuIcons/restore-w-12.png 1.25x, ../../assets/menuIcons/restore-w-15.png 1.5x, ../../assets/menuIcons/restore-w-15.png 1.75x, ../../assets/menuIcons/restore-w-20.png 2x, ../../assets/menuIcons/restore-w-20.png 2.25x, ../../assets/menuIcons/restore-w-24.png 2.5x, ../../assets/menuIcons/restore-w-30.png 3x, ../../assets/menuIcons/restore-w-30.png 3.5x"
+                     alt="Restore Button"/>
             </div>
 
-          </div>
+            <div class="button cursor-pointer" id="close-button">
+                <img class="icon"
+                     draggable="false"
+                     srcset="../../assets/menuIcons/close-w-10.png 1x, ../../assets/menuIcons/close-w-12.png 1.25x, ../../assets/menuIcons/close-w-15.png 1.5x, ../../assets/menuIcons/close-w-15.png 1.75x, ../../assets/menuIcons/close-w-20.png 2x, ../../assets/menuIcons/close-w-20.png 2.25x, ../../assets/menuIcons/close-w-24.png 2.5x, ../../assets/menuIcons/close-w-30.png 3x, ../../assets/menuIcons/close-w-30.png 3.5x"
+                     alt="Close Button"/>
+            </div>
+
         </div>
+        <div id="window-title">
+            <span class="text-white"></span>
+        </div>
+    </div>
+</header>
 
-    </main>
-  </body>
+<header>
+    <div class="w-screen h-20 bae-header-grey" style="margin-top: 24px; align-items: center;">
+        <div class="flex flex-row p-5" style="height: 100%; width: 100%; align-items: center;">
+            <img alt="BAE Systems Logo" class="w-auto h-10" src="../../assets/baeImages/logo_baesystems_borderless.svg">
+            <h1 class="bae-slogan-text pl-5 font-thin">Trusted, Innovative, Bold</h1>
+            <h1 class="absolute bae-header-text-2 right-0 pr-5">Software Engineering Degree Apprenticeship</h1>
+        </div>
+    </div>
+</header>
+
+</body>
 </html>
