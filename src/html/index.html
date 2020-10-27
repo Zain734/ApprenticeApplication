@@ -1,26 +1,32 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" class="flex h-full w-full">
 <head>
     <meta charset="UTF-8">
     <title>Apprentice Schemes</title>
     <link href="https://unpkg.com/tailwindcss@^1.0/dist/tailwind.min.css" rel="stylesheet">
     <link href="../css/bae.css" rel="stylesheet">
+    <link href="../css/index.css" rel="stylesheet">
     <script src="../js/render.js"></script>
 </head>
 <body class="overflow-hidden bae-body-grey">
+
+<!-- Custom Application Titlebar -->
 
 <header id="titlebar">
     <div id="drag-region">
         <div id="window-controls">
 
+            <!-- Minimise Button -->
+            
             <div class="button cursor-pointer" id="min-button">
                 <img class="icon"
                      draggable="false"
                      srcset="../../assets/menuIcons/min-w-10.png 1x, ../../assets/menuIcons/min-w-12.png 1.25x, ../../assets/menuIcons/min-w-15.png 1.5x, ../../assets/menuIcons/min-w-15.png 1.75x, ../../assets/menuIcons/min-w-20.png 2x, ../../assets/menuIcons/min-w-20.png 2.25x, ../../assets/menuIcons/min-w-24.png 2.5x, ../../assets/menuIcons/min-w-30.png 3x, ../../assets/menuIcons/min-w-30.png 3.5x"
                      alt="Minimise Button"/>
-
             </div>
 
+            <!-- Maximise Button -->
+            
             <div class="button cursor-pointer" id="max-button">
                 <img class="icon"
                      draggable="false"
@@ -28,6 +34,8 @@
                      alt="Maximise Button"/>
             </div>
 
+            <!-- Restore Button -->
+            
             <div class="button cursor-pointer" id="restore-button">
                 <img class="icon"
                      draggable="false"
@@ -35,6 +43,7 @@
                      alt="Restore Button"/>
             </div>
 
+            <!-- Close Button -->
             <div class="button cursor-pointer" id="close-button">
                 <img class="icon"
                      draggable="false"
@@ -43,21 +52,52 @@
             </div>
 
         </div>
+        
         <div id="window-title">
             <span class="text-white"></span>
         </div>
+        
     </div>
 </header>
 
+<!-- BAE Header -->
+
 <header>
     <div class="w-screen h-20 bae-header-grey" style="margin-top: 24px; align-items: center;">
+        
         <div class="flex flex-row p-5" style="height: 100%; width: 100%; align-items: center;">
             <img alt="BAE Systems Logo" class="w-auto h-10" src="../../assets/baeImages/logo_baesystems_borderless.svg">
             <h1 class="bae-slogan-text pl-5 font-thin">Trusted, Innovative, Bold</h1>
             <h1 class="absolute bae-header-text-2 right-0 pr-5">Software Engineering Degree Apprenticeship</h1>
         </div>
+        
     </div>
 </header>
+
+<!-- Main Body Section -->
+
+<section class="max-size p-8">
+    <div class="h-auto w-auto centre-div">
+
+        <!-- Row One -->
+
+        <div class="flex justify-between">
+            <div class="w-1/5 bg-gray-500 grid-item-height"></div>
+            <div class="w-1/5 bg-gray-400 grid-item-height"></div>
+            <div class="w-1/5 bg-gray-500 grid-item-height"></div>
+            <div class="w-1/5 bg-gray-400 grid-item-height"></div>
+        </div>
+
+        <!-- Row Two -->
+
+        <div class="flex justify-between pt-8">
+            <div class="w-1/5 bg-gray-500 grid-item-height"></div>
+            <div class="w-1/5 bg-gray-400 grid-item-height"></div>
+            <div class="w-1/5 bg-gray-500 grid-item-height"></div>
+            <div class="w-1/5 bg-gray-400 grid-item-height"></div>
+        </div>
+    </div>
+</section>
 
 </body>
 </html>

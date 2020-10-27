@@ -17,16 +17,44 @@ const createWindow = () => {
             nodeIntegration: true,
             enableRemoteModule: true
         },
-        frame: false
+        frame: false,
+        devTools: true,
+        worldSafeExecuteJavaScript: true,
+        show: false
     });
 
-    // and load the index.html of the app.
+    //Create splash screen window
+    const splashWindow = new BrowserWindow({
+        width: 500,
+        height: 125,
+        worldSafeExecuteJavaScript: true,
+        frame: false,
+        webPreferences: {
+            nodeIntegration: true,
+            enableRemoteModule: true
+        },
+        resizable: false,
+        show: true,
+        alwaysOnTop: true
+    });
+
+    //Load respective files
+    splashWindow.loadFile(path.join(__dirname, '../html/loadingScreen.html'));
     mainWindow.loadFile(path.join(__dirname, '../html/index.html'));
     mainWindow.removeMenu();
 
+    mainWindow.webContents.on('did-finish-load', loadMain);
+    
+    function loadMain() {
+        splashWindow.close();
+        mainWindow.show();
+        mainWindow.focus();
+    }
+    
     // Open the DevTools.
-    //mainWindow.webContents.openDevTools();
+    mainWindow.webContents.openDevTools();
 };
+
 
 // This method will be called when Electron has finished
 // initialization and is ready to create browser windows.

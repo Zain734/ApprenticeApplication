@@ -1,5 +1,14 @@
-@tailwind base;
+.max-size {
+    height: calc(100vh - 104px);
+    width: 100%;
+}
 
-@tailwind components;
+.centre-div {
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+}
 
-@tailwind utilities;
+.grid-item-height {
+    height: calc(50vh - 104px);
+}
