@@ -37,3 +37,12 @@ function handleWindowControls() {
     }
 }
 
+function checkResizeButton(){
+
+    if (!BrowserWindow.getFocusedWindow().isMaximized()){
+        document.body.classList.remove('maximized');
+    } else if (BrowserWindow.getFocusedWindow().isMaximized()){
+        document.body.classList.add('maximized');
+    }
+
+}
